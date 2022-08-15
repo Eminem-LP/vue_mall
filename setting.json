@@ -1,0 +1,51 @@
+{
+    "editor.fontSize": 18,
+    "[vue]": {
+        "editor.defaultFormatter": "octref.vetur"
+      },
+      "[javascript]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+      },
+      "eslint.validate": [
+        "javascript",
+        "javascriptreact"
+      ],
+    "vetur.ignoreProjectWarning": true,
+      "vetur.format.defaultFormatter.js": "vscode-typescript",
+      "vetur.format.defaultFormatter.html": "js-beautify-html",
+      "vetur.format.defaultFormatterOptions": {
+        "js-beautify-html": {
+          "wrap_line_length": 200,
+          // Wrap attributes to new lines [auto|force|force-aligned|force-expand-multiline] ["auto"]
+          "wrap_attributes": "auto"
+        }
+      },
+      "editor.tabSize": 2,
+      "vetur.validation.template": false,
+      "git.ignoreLimitWarning": true,
+      "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true
+      },
+      "git.confirmSync": false,
+      "eslint.quiet": true,
+      "javascript.format.insertSpaceBeforeFunctionParenthesis": true,
+      "typescript.format.insertSpaceAfterConstructor": true,
+      "typescript.format.insertSpaceBeforeFunctionParenthesis": true,
+      "javascript.preferences.quoteStyle": "single",
+      "javascript.format.insertSpaceAfterConstructor": true,
+      "typescript.preferences.quoteStyle": "single",
+      "html.format.wrapAttributes": "force-expand-multiline",
+      "editor.formatOnSave": true,
+      "prettier.vueIndentScriptAndStyle": true,
+      "prettier.singleQuote": true,
+      "prettier.useTabs": true,
+      "prettier.printWidth": 100,
+      "eslint.workingDirectories": [
+        ".eslintrc.js",
+        {
+          "mode": "auto"
+        }
+    ],
+    "files.autoSave": "onFocusChange"
+        
+  }
